@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conceptos - Git</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-container">
+                <img src="./unad-logo.png" alt="" class="header__logo">
+                <span class="header__title">Git y GitHub</span>
+            </div>
+            
+        </div>
+    </header>
+    <nav class="navigation">
+        <div class="container">
+            <ul class="menu">
+                <li><a href="./inicio.html">Inicio</a></li>
+                <li><a href="#">Conceptos</a>
+                    <ul>
+                        <li><a href="./concepto01.html">Git</a>
+                        <li><a href="./concepto02.html">GitHub</a>
+                    </ul>
+                </li>
+                <li><a href="#">Recursos</a>
+                    <ul>
+                        <li><a href="./recursos01.html">Manejando Git en Consola</a>
+                        <li><a href="./recursos02.html">Conociendo GitHub</a>
+                    </ul>
+                </li>
+                <li><a href="#">Autoevaluación</a>
+                    <ul>
+                        <li><a href="#">Opción</a>
+                        <li><a href="#">Opción</a>
+                    </ul>
+                </li>
+                <li><a href="./autor.html">Autor</a></li>
+            </ul>
+        </div>
+    </nav>
+    <section class="content">
+        <div class="container">
+            <div class="content-container">
+                <main class="content__main">
+                    <h1>Git</h1>
+                    <p>Hoy en día, Git es, con diferencia, el sistema de control de versiones moderno más utilizado del mundo. Git es un proyecto de código abierto maduro y con un mantenimiento activo que desarrolló originalmente Linus Torvalds, el famoso creador del kernel del sistema operativo Linux, en 2005. Un asombroso número de proyectos de software dependen de Git para el control de versiones, incluidos proyectos comerciales y de código abierto. Los desarrolladores que han trabajado con Git cuentan con una buena representación en la base de talentos disponibles para el desarrollo de software, y este sistema funciona a la perfección en una amplia variedad de sistemas operativos e IDE (entornos de desarrollo integrados).</p>
+                    <p>Cuando implementamos git en un proyecto web, hablamos de crear un repositorio de nuestro código, el cual puede ser publicada, llevar un control de cambios y también podemos clonar (o copiar) un repositorio ajeno que sea público.</p>
+
+                    <h2>Comandos básicos</h2>
+                    <p>El siguiente listado de comandos pueden ser ejecutados por medio de la consola de comandos ubicados dentro del proyecto web.</p>
+
+                    <h3>Iniciar un repositorio git</h3>
+                    <p>Crear un directorio o carpeta vacia, o simplemente empezar con un proyecto ya hecho. </p>
+                    <code>git init</code>
+                    <h3>Agregar los archivos o cambios al repositorio</h3>
+                    <p>Un o varios archivos especificados</p>
+                    <code>git add <filename></code>
+                    <p>Todos los archivos</p>
+                    <code>git add .</code>
+                    <h3>Crear un commit, siempre despues de un add</h3>
+                    <p>Se realiza siempre despues de git add y es para crear un marca, a la cual podemos regresar para ver el estado del código en es punto</p>
+                    <code>git commit -m "Actualización de listas"</code>
+                    <h2>Enlace de interés</h2>
+                    <ul>
+                        <li><a href="https://www.youtube.com/watch?v=Cn8UHVNIMiQ" target="_blank">[VIDEO] Cómo instalar Git en Windows 10</a></li>
+                    </ul>
+                    <h2>Referencias Bibliográficas</h2>
+                    <p>Atlassian. (s. f.). Qué es Git: conviértete en todo un experto en Git con esta guía. Recuperado 5 de noviembre de 2020, de <a href="https://www.atlassian.com/es/git/tutorials/what-is-git" target="_blank">https://www.atlassian.com/es/git/tutorials/what-is-git</a></p>
+                    <p>git - la guía sencilla. (s. f.). git - la guía sencilla. Recuperado 5 de noviembre de 2020, de <a href="https://rogerdudler.github.io/git-guide/index.es.html" target="_blank">https://rogerdudler.github.io/git-guide/index.es.html</a></p>
+                </main>
+                <aside class="content__aside">
+                    <a class="twitter-timeline" href="https://twitter.com/UniversidadUNAD?ref_src=twsrc%5Etfw">Tweets by UniversidadUNAD</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                </aside>
+            </div>
+
+        </div>
+    </section>
+</body>
+</html>

@@ -1,0 +1,149 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-weight: 500;
+    color: #005883;
+}
+
+p{
+    line-height: 1.5;
+}
+.container{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header{
+    background-color: #f0f0f0;
+}
+.header-container{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    height:70px;
+    padding: 10px 0;
+}
+.header__logo{
+    width: auto;
+    height: 50px;
+    margin-right: 16px;
+}
+.header__title{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+.navigation{
+    background-color: #F47920;
+}
+
+.menu{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-flow: row wrap;
+    background-color:  #F47920;
+}
+
+.menu li{
+    position: relative;
+    transition: all .2s ease-in-out;
+}
+
+.menu li a{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 16px;
+    color: #FFFFFF;
+    font-size: 16px;
+    text-decoration: none;
+    word-break: keep-all;
+
+}
+.menu li:hover{
+    background-color: #F0B429;
+}
+
+.menu li ul{
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    background-color:  #F47920;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 230px;
+    transition: all .2s ease-in-out;
+    visibility: hidden;
+    opacity: 0;
+    transform: translateY(-10px);
+}
+.menu li:hover ul{
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+.menu li ul li a{
+    justify-content: flex-start;
+}
+
+.content-container{
+    display: flex;
+    flex-flow: row nowrap;
+    margin-left: -8px;
+    margin-right: -8px;
+    padding: 32px 0px;
+}
+
+.content__main{
+    margin-left: 8px;
+    margin-right: 8px;
+    width: calc( (100% - (8px*4)) - 30%);
+}
+.content__aside{
+    margin-left: 8px;
+    margin-right: 8px;
+    width: calc( (100% - (8px*4)) - 70%);
+    max-height: 480px;
+    overflow-y: scroll;
+    background-color: #f0f0f0;
+    padding: 10px;
+}
+
+.content__main img{
+    max-width: 800px;
+    height: auto;
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #CCC;
+    border-radius: 8px;
+}
+
+img.profile_photo{
+    width: 140px;
+    height: auto;
+    display: inline-block;
+    border: none;
+}
+
+code{
+    background-color: #000;
+    color: #FFF;
+    padding: 8px;
+    display: block;
+    font-size: 16px;
+}
+
+
