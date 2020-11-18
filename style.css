@@ -18,7 +18,7 @@ p{
     margin-right: auto;
 }
 
-.header{
+.header, .footer{
     background-color: #f0f0f0;
 }
 .header-container{
@@ -159,4 +159,12 @@ a:visited{
     color: #005883;
 }
 
+.footer{
+    padding: 16px 0;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+}
 
